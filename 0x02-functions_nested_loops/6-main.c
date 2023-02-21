@@ -8,13 +8,13 @@
 int main(void)
 {
 int r;
-r = abs(-1);
+r = (-1);
 printf("%d\n", r);
-r = _abs(0);
+r = (0);
 printf("%d\n", r);
-r = _abs(1);
+r = (1);
 printf("%d\n", r);
-r = _abs(-98);
+r = (-98);
 printf("%d\n", r);
 return (0);
 }
