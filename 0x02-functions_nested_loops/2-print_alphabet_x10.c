@@ -10,7 +10,7 @@ char c;
 int i = 0;
 while (i <= 0)
 {
-for (c = 'a'; letter <= 'z'; c++)
+for (c = 'a'; c <= 'z'; c++)
 }
 _putchar(c);
 _putchar('\n');
