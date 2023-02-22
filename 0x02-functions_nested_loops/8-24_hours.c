@@ -42,4 +42,5 @@ while (h1 <= a)
 }
 h2++;
 }
+return (0);
 }
