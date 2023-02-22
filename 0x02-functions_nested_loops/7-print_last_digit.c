@@ -10,8 +10,14 @@ int ld = n % 10;
 
 if (ld < 0)
 {
-ld *= -1;
-_putchar(ld + '48);
+_putchar(-ld + 48);
+return (-ld);
 }
-return (0);
+else
+{
+_putchar(-ld + 48);
+
+
+return (ld);
+}
 }
